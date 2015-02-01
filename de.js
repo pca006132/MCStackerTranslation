@@ -920,8 +920,9 @@ items = new Array(['0', 'Nichts/Luft'],
  ttUses="Anzahl, wie oft der Handelsvorgang schon durchgef\u00fchrt wurde. Das Angebot wird geschlossen, wenn dieser Wert gr\u00f6\u00dfer/gleich wird, als \'Max. Verk\u00e4ufe\'";
  llBuyA="Kaufe A (Kosten)";
  llBuyB="Kaufe B (Kosten)";
+ ttBuy="Der Gegenstand, den der Spieler an den Dorfbewohner gibt";
  llBuyCount="Anzahl";
- ttBuyCount="Anzahl an Gegenst\u00e4nden, die der Spieler dem Dorfbewohner geben muss..";
+ ttBuyCount="Anzahl an Gegenst\u00e4nden, die der Spieler dem Dorfbewohner geben muss.";
  ttSecondaryTrade="Der zweite Handelsgegenstand ist optional.";
  llSell="Verkaufe";
  ttSell="Der Gegenstand, den der Dorfbewohner dem Spieler verkauft.";
@@ -1350,9 +1351,9 @@ enchantables[62][0] ="K\u00f6der";
  llObfuscated="Unleserlich (Magie)";
  llHoverEvent="Hover Event";
  llClickEvent="Click Event";
- ttHoverActionType="W\u00e4hle diese Option, wenn ein Hover Event einen Befehl ausf\u00fchren oder einen Text anzeigen soll.";
- ttClickActionType="W\u00e4hle diese Option, wenn ein Click Event einen Befehl ausf\u00fchren oder einen Text anzeigen soll."; 
- ttClickHoverAction="Der Text, der angezeigt oder der Befehl, der ausgef\u00fchrt werden soll, ausgel\u00f6st durch das Click/Hover Event. Lasse dies leer wenn du es nicht brauchst. Beachte: Sehr lange Befehle funktionieren nicht, da sie durch dieselbe Maximall\u00e4nge der Chatleiste begrenzt sind.";
+ ttHoverActionType="W\u00e4hle diese Option, wenn ein Hover Event einen Befehl ausf\u00fchren, eine URL \u00f6ffnen, die Seite wechseln, einen Erfolg/Achievement anzeigen, einen Gegenstand anzeigen oder einen Text anzeigen soll.";
+ ttClickActionType="W\u00e4hle diese Option, wenn ein Click Event einen Befehl ausf\u00fchren, eine URL \u00f6ffnen, die Seite wechseln, einen Erfolg/Achievement anzeigen, einen Gegenstand anzeigen oder einen Text anzeigen soll."; 
+ ttClickHoverAction="Der anzuzeigende Text/Gegenstand/Erfolg, die zu \u00f6ffnende URL, die zu wechselnde Seite, oder der Befehl, der ausgef\u00fchrt werden soll, ausgel\u00f6st durch das Click/Hover Event. Lasse dies leer wenn du es nicht brauchst. Beachte: Sehr lange Befehle funktionieren nicht, da sie durch dieselbe Maximall\u00e4nge der Chatleiste begrenzt sind.";
 
 
 //for 'replaceitem entity' command
@@ -1597,4 +1598,12 @@ ppNews="news-de.html";
 ppHelp="help-de.html"; //rename to help-de.html
 ppAbout="about-de.html";//rename to about-de.html
 ppTerms="termsandprivacy-de.html";//rename to termsandprivacy-de.html
+
+ttCommandSign="Der Befehl, der beim Klick auf das Schild ausgef\u00fchrt werden soll. Schilder k\u00f6nnen bis zu vier verschiedene Befehle ausf\u00fchren. Du kannst das Feld leer lassen, wenn Du diese Funktion nicht brauchst.";
+
+llSignLineMode="Modus";
+ttSignLineMode="W\u00e4hle den Modus f\u00fcr diese Zeile auf dem Schild. Das Schild kann einen Text, einen Name einer Entity mithilfe der Zielauswahl oder den Punktestand eines Ziels/Objectives anzeigen.";
+ttTargetSignLine="Gib hier eine Zielauswahl ein. Das Schild zeigt den Namen der Entity, die mit der Zielauswahl \u00fcbereinstimmen.";
+llObjectiveName="Ziel/Objective";
+ttObjectiveName="Gib hier den Namen des Scoreboard-Objectives/-Ziels ein.";
 }
