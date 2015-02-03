@@ -885,7 +885,7 @@ ttMinSpawnDelay="첫 스폰 후, 다음 스폰까지의 최소 틱.";
 llMaxSpawnDelay="최대 스폰 딜레이";
 ttMaxSpawnDelay="첫 스폰 후, 다음 스폰까지의 최대 틱.";
 llMaxNearbyEntities="최대 인근 엔티티";
-ttMaxNearbyEntities="Checks the number of entities within the spawn range ('SpawnRange' tag). If the number of entities it detects is over the set MaxNearbyEntities number, it will not spawn more entities unless the amount of entities within the spawn range is decreased.";
+ttMaxNearbyEntities="스폰 범위 안에 존재하는 엔티티의 수를 체크합니다. 만일 최대 인근 엔티티 수를 초과하는 수의 엔티티가 감지되면 스폰 범위 안의 엔티티 수가 감소하기 전까지는 더이상 엔티티를 소환하지 않습니다.";
 
 llPlayerName="플레이어 이름";
 ttPlayerName="특정 플레이어의 이름을 입력하세요.";
@@ -893,22 +893,22 @@ llItemSelect="아이템";
 ttItemSelect="아이템을 선택하세요.";
 ttSearchFilter="검색/필터";
 
-llEntity="Entity";
-ttEntity="Choose your Minecraft entity.";
-ttRemoveFromStack="Remove this entity from the stack. You need to keep at least one entity in the stack.";
-ttMoveUpStack="Move this entity up the stack.";
-ttMoveDownStack="Move this entity down the stack.";
-eeKeepOneEntity="You need to keep at least one entity";
+llEntity="엔티티";
+ttEntity="소환하고자 하는 마인크래프트 엔티티를 선택하세요.";
+ttRemoveFromStack="이 엔티티를 스택에서 제거합니다. 스택에는 엔티티를 최소한 하나는 남겨놔야 합니다.";
+ttMoveUpStack="이 엔티티를 스택에서 한 칸 올립니다.";
+ttMoveDownStack="이 엔티티를 스택에서 한 칸 내립니다.";
+eeKeepOneEntity="엔티티를 최소한 하나는 남겨놔야 합니다.";
 
-llCustomNameEntity="Name";
-ttCustomNameEntity="The custom name of this entity. Appears in player death messages and villager trading interfaces, as well as above the entity when your cursor is over it.";
+llCustomNameEntity="이름";
+ttCustomNameEntity="이 엔티티의 커스텀 이름입니다. 사망 메시지와 주민 거래창에 표시되며, 엔티티에 커서를 올렸을 때 머리 위에 나타납니다.";
 llUUIDLeast="UUIDLeast";
 ttUUIDLeast="The least significant bits of this entity's Universally Unique IDentifier. This is used for leashing mobs to this entity. Set both UUIDLeast and UUIDMost or none at all.";
 llUUIDMost="UUIDMost";
 ttUUIDMost="The most significant bits of this entity's Universally Unique IDentifier. This is used for leashing mobs to this entity. Set both UUIDLeast and UUIDMost or none at all.";
 
-llInvulnerable="Invulnerable";
-ttInvulnerable="Check if the entity should not take damage. This applies to living and nonliving entities alike: mobs will not take damage from any source (including potion effects), and cannot be moved by fishing rods, attacks, explosions, or projectiles, and objects such as vehicles and item frames cannot be destroyed unless their supports are removed. Note that these entities can be damaged by players in Creative mode.";
+llInvulnerable="무적";
+ttInvulnerable="엔티티가 대미지를 입지 않기를 원한다면 체크하세요. 이는 생물에도 무생물에도 적용됩니다. 몹은 포션 효과, 공격, 폭발 등 그 어떠한 요인으로도 대미지를 입지 않으며, 탈것 및 아이템 액자도 지지하는 대상이 제거되지 않는 한 파괴되지 않습니다. 하지만 크리에이티브 모드의 유저는 파괴할 수 있다는 것을 유념하세요.";
 
 llInLove="In Love";
 ttInLove="Ticks until the mob loses its breeding hearts and stops searching for a mate. Leave blank when not searching for a mate.";
@@ -916,12 +916,12 @@ llAge="Age";
 ttAge="The age of the mob in ticks. Set to a negative number if it is a baby. Set to 0 or above if the mob is an adult. Values above 0 are the number of ticks before this mob can breed again.";
 llForcedlAge="Forced Age";
 ttForcedlAge="A value of age which will be assigned to this mob when it grows up. Incremented when a baby mob is fed.";
-llOwner="Owner";
-ttOwner="Name of the player that owns this mob. Empty string if no owner.";
-llOwnerUUID="Owner UUID";
-ttOwnerUUID="UUID of the player that owns this mob.";
-llSitting="Sitting";
-ttSitting="Check this if the mob is sitting.";
+llOwner="주인";
+ttOwner="이 몹의 주인의 이름입니다. 주인이 없다면 비워두세요.";
+llOwnerUUID="주인 UUID";
+ttOwnerUUID="이 몹의 주인의 UUID입니다.";
+llSitting="앉기";
+ttSitting="몹이 앉기를 원한다면 체크하세요.";
 
 llInGround="In Ground";
 ttInGround="If the Projectile is in the ground or hit the ground already. Flying arrows can't be picked up.";
