@@ -943,22 +943,22 @@ ttOwnerName="The name of the player this projectile was thrown by.";
 llPotionAppearance="Potion";
 ttPotionAppearance="The appearance  of the potion that was thrown. Click the Status Effects check box to make a custom potion effect.";
 
-llArmorBody="Body";
-llArmorLeftArm="Left Arm";
-llArmorRightArm="Right Arm";
-llArmorLeftLeg="Left Leg";
-llArmorRightLeg="Right Leg";
-llArmorHead="Head";
-llPose="Pose";
-llArmorRotation="Rotation";
+llArmorBody="몸통";
+llArmorLeftArm="왼쪽 팔";
+llArmorRightArm="오른쪽 팔";
+llArmorLeftLeg="왼쪽 다리";
+llArmorRightLeg="오른쪽 다리";
+llArmorHead="머리";
+llPose="자세";
+llArmorRotation="회전";
 
-llDisabledSlots="Disabled Slots";
+llDisabledSlots="슬롯 잠금";
 
-disabledSlots=new Array("Hand","Boot","Leg","Chest","Head");
+disabledSlots=new Array("손","부츠","다리","몸통","머리");
 
-llArmorOperationRemove="Remove";
-llArmorOperationReplace="Replace";
-llArmorOperationPlace="Place";
+llArmorOperationRemove="제거";
+llArmorOperationReplace="교체";
+llArmorOperationPlace="설치";
 llDisabledFor=" disabled for "; //forms a sentence like 'Replace disabled for Leg'
 llShowArms="Show Arms";
 ttShowArms="Shows wooden arms on the ArmorStand.";
@@ -1772,14 +1772,14 @@ eeSignInRequired="You need to sign in to save a command.";
 ttShowHide="Hide/Show details of this entity";
 
 //XML editor
-llEditXML="XML Editor";
-ttEditXML="Edit the XML for this command. This is an advanced feature that requires some basic XML skills.";
-llExportXML="Export XML";
-ttExportXML="Export the current settings from this command into the XML editor.";
-llImportXML="Import XML";
-ttImportXML="Import the XML from the editor into MCStacker. Ensure the the XML is valid otherwise it will not work.";
-llCloseXML="Close XML Editor";
-ttCloseXML="Close the XML Editor. Import your edits before closing if you wish to keep them.";
+llEditXML="XML 편집기";
+ttEditXML="이 커맨드의 XML을 편집합니다. 이는 기초적인 XML 편집 능력을 요구하는 고급 기능입니다.";
+llExportXML="XML 내보내기";
+ttExportXML="이 커맨드의 현재 설정을 XML 편집기로 내보냅니다.";
+llImportXML="XML 불러오기";
+ttImportXML="XML 편집기에서 MCStacker로 정보를 불러옵니다. XML이 유효하지 않으면 작동하지 않습니다.";
+llCloseXML="XML 편집기 닫기";
+ttCloseXML="XML 편집기를 닫습니다. 편집을 보존하고 싶다면 닫기 전에 꼭 불러오세요.";
 
 
 //Pages
