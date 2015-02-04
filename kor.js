@@ -604,24 +604,24 @@ items=new Array(["0","None"],
 ["emerald","에메랄드"],
 ["item_frame","아이템 액자"],
 ["flower_pot","화분"],
-["carrot","Carrots"],
-["potato","Potato"],
-["baked_potato","Baked Potato"],
-["poisonous_potato","Poisonous Potato"],
-["map","Map"],
-["golden_carrot","Golden Carrot"],
-["skull","Mob Head (Skeleton)"],
-["skull:1","Mob Head (Wither Skeleton)"],
-["skull:2","Mob Head (Zombie)"],
-["skull:3","Mob Head (Human)"],
-["skull:4","Mob Head (Creeper)"],
-["carrot_on_a_stick","Carrot on a Stick"],
-["nether_star","Nether Star"],
-["pumpkin_pie","Pumpkin Pie"],
-["fireworks","Firework Rocket"],
-["firework_charge","Firework Star"],
-["enchanted_book","Enchanted Book"],
-["comparator","Redstone Comparator"],
+["carrot","당근"],
+["potato","감자"],
+["baked_potato","구운 감자"],
+["poisonous_potato","독이 있는 감자"],
+["map","빈 지도"],
+["golden_carrot","황금 당근"],
+["skull","해골"],
+["skull:1","위더 스켈레톤의 해골"],
+["skull:2","좀비의 머리"],
+["skull:3","머리"],
+["skull:4","크리퍼의 머리"],
+["carrot_on_a_stick","당근 낚시대"],
+["nether_star","네더의 별"],
+["pumpkin_pie","호박 파이"],
+["fireworks","폭죽 로켓"],
+["firework_charge","불꽃놀이 탄약"],
+["enchanted_book","마법부여된 책"],
+["comparator","레드스톤 비교기"],
 ["netherbrick","Nether Brick"],
 ["quartz","Nether Quartz"],
 ["tnt_minecart","Minecart with TNT"],
@@ -862,7 +862,7 @@ ttResetForm="모든 설정을 기본값으로 되돌립니다.";
 llSaveAs="새 명령어로 저장";
 ttSaveAs="현재 설정을 파생 관계 없는 새 명령어로 저장합니다.";
 llEnchantAll="인챈트 불가 아이템도 표시 (모든 아이템에 인챈트 옵션을 표시합니다.)";
-ttEnchantAll="모든 아이템에 인챈트 옵션을 사용할 수 있게 됩니다. 인챈트 옵션을 표시하거나 숨기려면 아이템을 다시 선택해야합니다.";
+ttEnchantAll="모든 아이템에 인챈트 옵션을 사용할 수 있게 됩니다. 인챈트 옵션을 표시하거나 숨기려면 아이템을 다시 선택해야 합니다.";
 llAddEntity="엔티티 추가";
 ttAddEntity="스택 맨 아래에 엔티티를 추가합니다.";
 llSummonCoords="소환 좌표";
@@ -910,10 +910,10 @@ ttUUIDMost="The most significant bits of this entity's Universally Unique IDenti
 llInvulnerable="무적";
 ttInvulnerable="엔티티가 대미지를 입지 않기를 원한다면 체크하세요. 이는 생물에도 무생물에도 적용됩니다. 몹은 포션 효과, 공격, 폭발 등 그 어떠한 요인으로도 대미지를 입지 않으며, 탈것 및 아이템 액자도 지지하는 대상이 제거되지 않는 한 파괴되지 않습니다. 하지만 크리에이티브 모드의 유저는 파괴할 수 있다는 것을 유념하세요.";
 
-llInLove="In Love";
-ttInLove="Ticks until the mob loses its breeding hearts and stops searching for a mate. Leave blank when not searching for a mate.";
-llAge="Age";
-ttAge="The age of the mob in ticks. Set to a negative number if it is a baby. Set to 0 or above if the mob is an adult. Values above 0 are the number of ticks before this mob can breed again.";
+llInLove="번식";
+ttInLove="번식 하트가 없어지고 짝을 찾는 걸 멈추기까지의 틱 수입니다. 짝을 찾지 않기를 원한다면 비워두세요.";
+llAge="나이";
+ttAge="몹의 틱 나이입니다. 음수는 아기, 양수는 성인입니다. 양수일 때의 수치는 이 몹이다시 번식할 수 있게 되기까지의 틱입니다.";
 llForcedlAge="Forced Age";
 ttForcedlAge="A value of age which will be assigned to this mob when it grows up. Incremented when a baby mob is fed.";
 llOwner="주인";
