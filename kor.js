@@ -622,27 +622,27 @@ items=new Array(["0","None"],
 ["firework_charge","불꽃놀이 탄약"],
 ["enchanted_book","마법부여된 책"],
 ["comparator","레드스톤 비교기"],
-["netherbrick","Nether Brick"],
-["quartz","Nether Quartz"],
-["tnt_minecart","Minecart with TNT"],
-["hopper_minecart","Minecart with Hopper"],
-["prismarine_shard","Prismarine Shard"],
-["prismarine_crystals","Prismarine Crystals"],
-["rabbit","Raw Rabbit"],
-["cooked_rabbit","Cooked Rabbit"],
-["rabbit_stew","Rabbit Stew"],
-["rabbit_foot","Rabbit's Foot"],
-["rabbit_hide","Rabbit Hide"],
-["armor_stand","Armor Stand"],
-["iron_horse_armor","Iron Horse Armor"],
-["golden_horse_armor","Gold Horse Armor"],
-["diamond_horse_armor","Diamond Horse Armor"],
-["lead","Lead"],
-["name_tag","Name Tag"],
-["command_block_minecart","Command Block Minecart"],
-["mutton","Raw Mutton"],
-["cooked_mutton","Cooked Mutton"],
-["banner","Banner"],
+["netherbrick","네더 벽돌"],
+["quartz","네더 석영"],
+["tnt_minecart","TNT 마인카트"],
+["hopper_minecart","깔때기 마인카트"],
+["prismarine_shard","프리즈마린 조각"],
+["prismarine_crystals","프리즈마린 수정"],
+["rabbit","익히지 않은 토끼고기"],
+["cooked_rabbit","구운 토끼고기"],
+["rabbit_stew","토끼 스튜"],
+["rabbit_foot","토끼발"],
+["rabbit_hide","토끼 가죽"],
+["armor_stand","갑옷 거치대"],
+["iron_horse_armor","철 말 갑옷"],
+["golden_horse_armor","금 말 갑옷"],
+["diamond_horse_armor","다이아몬드 말 갑옷"],
+["lead","끈"],
+["name_tag","이름표"],
+["command_block_minecart","명령 블록 마인카트"],
+["mutton","익히지 않은 양고기"],
+["cooked_mutton","구운 양고기"],
+["banner","현수막"],
 ["record_13","13 음반"],
 ["record_cat","Cat 음반"],
 ["record_blocks","Blocks 음반"],
@@ -914,8 +914,8 @@ llInLove="번식";
 ttInLove="번식 하트가 없어지고 짝을 찾는 걸 멈추기까지의 틱 수입니다. 짝을 찾지 않기를 원한다면 비워두세요.";
 llAge="나이";
 ttAge="몹의 틱 나이입니다. 음수는 아기, 양수는 성인입니다. 양수일 때의 수치는 이 몹이다시 번식할 수 있게 되기까지의 틱입니다.";
-llForcedlAge="Forced Age";
-ttForcedlAge="A value of age which will be assigned to this mob when it grows up. Incremented when a baby mob is fed.";
+llForcedlAge="강제 나이";
+ttForcedlAge="몹이 성정했을 때 부여받는 나이입니다. 아기 몹에게 먹이를 주면 증가합니다.";
 llOwner="주인";
 ttOwner="이 몹의 주인의 이름입니다. 주인이 없다면 비워두세요.";
 llOwnerUUID="주인 UUID";
@@ -923,16 +923,16 @@ ttOwnerUUID="이 몹의 주인의 UUID입니다.";
 llSitting="앉기";
 ttSitting="몹이 앉기를 원한다면 체크하세요.";
 
-llInGround="In Ground";
-ttInGround="If the Projectile is in the ground or hit the ground already. Flying arrows can't be picked up.";
-llPickup="Pickup";
-llPickup0="cannot be picked up";
-llPickup1="can be picked up by players in survival or creative";
-llPickup2="can only be picked up by players in creative";
-ttPickup="Options regarding if the arrow can be picked up.";
-llPlayerPickup="Player Pickup";
-ttPlayerPickup="If pickup is not used, and this is checked, the arrow can be picked up by players.";
-llArrowLife="Life";
+llInGround="지상";
+ttInGround="발사체가 땅에 닿았는지 여부. 날아가는 화살은 습득할 수 없습니다.";
+llPickup="습득";
+llPickup0="습득할 수 없음";
+llPickup1="서바이벌 혹은 크레에이티브 플레이어 습득 가능";
+llPickup2="크리에이티브 플레이어만 습득 가능";
+ttPickup="화살 습득 가능 여부에 관한 설정.";
+llPlayerPickup="플레이어 습득";
+ttPlayerPickup="습득 설정을 '습득할 수 없음'으로 하고 이곳를 체크할 경우, 플레이어가 화살을 습득할 수 있습니다.";
+llArrowLife="생명";
 ttArrowLife="Increments each tick when an arrow is not moving; resets to 0 if it moves. When it ticks to 1200, the arrow despawns.";
 llArrowDamage="Damage";
 ttArrowDamage="Damage dealt by the arrow, in half-hearts.";
