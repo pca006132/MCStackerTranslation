@@ -838,7 +838,7 @@ var tileIDs=new Array(["air","Luft"],
 ["stained_glass_pane","Gef\u00e4rbte Glasscheibe","SB"],
 ["leaves2","Bl\u00e4tter (Akazie/Schwarzeiche)","SB"],
 ["log2","Holz (Akazie/Schwarzeiche)","SB"],
-["acacia_stairs","Akazienholztreppe S"], // doesn't it mean ["acacia_stairs","Akazienholztreppe","S"] ?
+["acacia_stairs","Akazienholztreppe","S"],
 ["dark_oak_stairs","Schwarzeichenholztreppe","S"],
 ["slime","Schleimblock"],
 ["barrier","Barriere"],
