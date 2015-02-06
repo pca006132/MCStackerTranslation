@@ -977,9 +977,9 @@ ttBaseRotation="갑옷 거치대 전체의 회전 각도.";
 llPersistence="지속성";
 ttPersistence="엔티티가 디스폰 되는 것을 막으려면 체크하세요.";
 
-llHangUpsideDown="Hang Upside";
-ttHangUpsideDown="The bat is summoned upside down. This has no effect if the player is too close or the bat is not under a block.";
-llChickenJockey="Chicken Jockey";
+llHangUpsideDown="매달림";
+ttHangUpsideDown="천장에 매달린 박쥐를 소환합니다. 플레이어가 너무 가까이 있거나 블록 밑이 아니라면 효과가 없습니다.";
+llChickenJockey="치킨 조키";
 ttChickenJockey="Whether or not the chicken is a jockey for a baby zombie. Set if the chicken can naturally despawn. Other effects are unknown. Baby zombies can still control a ridden chicken even if this is not checked.";
 llPowered="Powered";
 ttPowered="Set if the creeper is charged from being struck by lightning. Creates a blue aura surrounding the creeper. Charged creepers have a bigger explosion radius, but this can be overridden buy the Explosion Radius setting.";
