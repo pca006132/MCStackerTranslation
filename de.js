@@ -3,7 +3,7 @@ function translateMCStacker(){
 specialTiles=new Array(["flowing_water","Wasser"],
 ["water","Station\u00e4res Wasser"],
 ["flowing_lava","Lava"],
-["lava","Station\u00e4res Lava"],
+["lava","Station\u00e4re Lava"],
 ["fire","Feuer"]); 
  
 items = new Array(['0', 'Nichts/Luft'], 
