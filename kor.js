@@ -1711,11 +1711,11 @@ llPublic="Public";
 llAllowComments="Allow Comments";
 llTags="Tags";
 
-ttTags="Tags are used for searching. Enter up to 10 words to describe this command. Separate tag words with commas(,)";
-llSave="Save";
-ttSave="Save this command. All changes made in command generator will be saved and will overwrite the previous settings. This action can not be undone."; 
-llCancel="Cancel"; 
-ttCancel="Cancel this edit."; 
+ttTags="태그는 검색에 활용됩니다. 이 명령어에 대해 설명하는 태그를 최대 10개까지 입력할 수 있습니다. 쉽표(,)로 태그 간을 구분합니다.";
+llSave="저장";
+ttSave="이 명령어를 저장합니다. 명령어 생성기에서 행한 모든 편집이 저장되며 기존 세팅을 덮어씌웁니다. 이것은 실행 취소할 수 없습니다."; 
+llCancel="취소"; 
+ttCancel="편집을 취소합니다."; 
 ttCommandTitle="Give the command a concise and descriptive title.";
 ttCommandDescription="Describe what the command does and what it is for.";
 ttCommentBox="Write a comment for this command.";
@@ -1790,9 +1790,9 @@ ppTerms="termsandprivacy.html";
 
 ttCommandSign="The command to run when the sign is clicked by the player. Signs can execute up to four different commands. You can leave this blank if not required.";
 
-llSignLineMode="Mode";
-ttSignLineMode="Choose the mode for this line in the sign. Can display text,an entity's name with a target selector or the score for an objective";
-ttTargetSignLine="Enter a target selector into this field. The sign will display the name of the entity that qualifies as the target";
-llObjectiveName="Objective";
-ttObjectiveName="Enter the name of the scoreboard objective";
+llSignLineMode="모드";
+ttSignLineMode="이 행의 모드를 선택하세요. 텍스트, 목표 선정 인자를 통해 선정된 엔티티 이름, 혹은 점수판 목표를 표시할 수 있습니다. ";
+ttTargetSignLine="이곳에 목표 선정 인자를 입력하세요. 조건에 부합하는 엔티티의 이름을 표지판에 표시합니다.";
+llObjectiveName="목표";
+ttObjectiveName="점수판 목표의 이름을 입력하세요.";
 }
