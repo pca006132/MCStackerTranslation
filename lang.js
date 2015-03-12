@@ -1807,3 +1807,14 @@ var ttSignLineMode="Choose the mode for this line in the sign. Can display text,
 var ttTargetSignLine="Enter a target selector into this field. The sign will display the name of the entity that qualifies as the target";
 var llObjectiveName="Objective";
 var ttObjectiveName="Enter the name of the scoreboard objective";
+
+var llSouth="South";
+var llWest="West";
+var llNorth="North";
+var llEast="East";
+var llFacing="Facing";
+var ttFacing="The direction the ItemFrame or Painting faces.";
+var llItemRotation="Item Rotation";
+var ttItemRotation="Degrees the Item has been rotated from the original position (clockwise).";
+var llMotive="Motive";
+var ttMotive="The name of this painting's art";
