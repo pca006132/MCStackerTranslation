@@ -1649,7 +1649,7 @@ var llMaxScore="Maximum Score";
 var ttMaxScore="Selects only targets with no more than the specified score. (Requires Scoreboard objectives to be set up).";
 
 //MCStacker Save
-var monthNames = new Array("Jan", "Feb", "Ma", 
+var monthNames = new Array("Jan", "Feb", "Mar", 
 "Apr", "May", "Jun", "Jul", "Aug", "Sep", 
 "Oct", "Nov", "Dec");
 var llHome="Home";
