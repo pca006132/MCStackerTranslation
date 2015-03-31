@@ -1806,4 +1806,16 @@ ttSignLineMode="W\u00e4hle den Modus f\u00fcr diese Zeile auf dem Schild. Das Sc
 ttTargetSignLine="Gib hier eine Zielauswahl ein. Das Schild zeigt den Namen der Entity, die mit der Zielauswahl \u00fcbereinstimmen.";
 llObjectiveName="Ziel/Objective";
 ttObjectiveName="Gib hier den Namen des Scoreboard-Objectives/-Ziels ein.";
+
+ llSouth="Süd"; 
+ llWest="West"; 
+ llNorth="Nord"; 
+ llEast="Ost"; 
+ llFacing="Richtung"; 
+ ttFacing="Die Richtung, in der das ItemFrame oder das Gem\u00e4ldes zeigt."; 
+ llItemRotation="Rotation des Gegenstands"; 
+ ttItemRotation="Gedrehter Winkel von der Originalposition (Uhrzeigersinn) des Gegenstands."; 
+ llMotive="Motiv"; 
+ ttMotive="Der Name dieses Gem\u00e4ldes"; 
+
 }
