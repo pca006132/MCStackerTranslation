@@ -918,7 +918,7 @@ var eeKeepOneEntity="You need to keep at least one entity";
 var llCustomNameEntity="Name";
 var ttCustomNameEntity="The custom name of this entity. Appears in player death messages and villager trading interfaces, as well as above the entity when your cursor is over it.";
 var llHideCustomName="Hide Name";
-var ttHideCustomName="Entities can have custom names but they are not displayed.";
+var ttHideCustomName="Entities can have custom names but they are not displayed. This mainly only works on non-mob entities.";
 
 var llUUIDLeast="UUIDLeast";
 var ttUUIDLeast="The least significant bits of this entity's Universally Unique IDentifier. This is used for leashing mobs to this entity. Set both UUIDLeast and UUIDMost or none at all.";
