@@ -894,6 +894,13 @@ var llMaxSpawnDelay="Max Spawn Delay";
 var ttMaxSpawnDelay="Similar to MinSpawnDelay. After the first spawn, this is the maximum amount of ticks before more entities can spawn.";
 var llMaxNearbyEntities="Max Nearby Entities";
 var ttMaxNearbyEntities="Checks the number of entities within the spawn range ('SpawnRange' tag). If the number of entities it detects is over the set MaxNearbyEntities number, it will not spawn more entities unless the amount of entities within the spawn range is decreased.";
+var llSpawnPosition="Spawn Position";
+var leaveBlank =" Leave blank if you do not want the entity to spawn at specific location. Relative Co-ordinates are not allowed here."
+var ttSpawnX="The X position to spawn the entity at." + leaveBlank;
+var ttSpawnY="The Y position to spawn the entity at." + leaveBlank;
+var ttSpawnZ="The Z position to spawn the entity at." + leaveBlank;
+var ttRelativeSpawner="Check if the entity is spawned at a location relative to the spawner. Uncheck to spawn the entity at a specific co-ordinate.";
+
 
 var llPlayerName="Player Name";
 var ttPlayerName="Enter a specific player's name.";
@@ -910,6 +917,9 @@ var eeKeepOneEntity="You need to keep at least one entity";
 
 var llCustomNameEntity="Name";
 var ttCustomNameEntity="The custom name of this entity. Appears in player death messages and villager trading interfaces, as well as above the entity when your cursor is over it.";
+var llHideCustomName="Hide Name";
+var ttHideCustomName="Entities can have custom names but they are not displayed.";
+
 var llUUIDLeast="UUIDLeast";
 var ttUUIDLeast="The least significant bits of this entity's Universally Unique IDentifier. This is used for leashing mobs to this entity. Set both UUIDLeast and UUIDMost or none at all.";
 var llUUIDMost="UUIDMost";
@@ -1818,3 +1828,5 @@ var llItemRotation="Item Rotation";
 var ttItemRotation="Degrees the Item has been rotated from the original position (clockwise).";
 var llMotive="Motive";
 var ttMotive="The name of this painting's art";
+
+
