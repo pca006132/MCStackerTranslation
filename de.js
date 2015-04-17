@@ -905,6 +905,12 @@ var tileIDs=new Array(["air","Luft"],
  ttMaxSpawnDelay="Analog zu Mind.-Spawnverz\u00f6gerung: Nach dem ersten Spawnen ist dies die Maximalanzahl an Ticks bevor weitere Entities gespawnt werden.";
  llMaxNearbyEntities="Max. Entities in der N\u00e4he";
  ttMaxNearbyEntities="Wenn die Anzahl an Kreaturen mit der ID EntityId im mit RequiredPlayerRange festgelegten Umkreis des Monsterspawners diese Anzahl erreicht hat, wird keine neue Kreatur mit dieser ID gespawnt. Es wird nur die EntityId verglichen, nicht die Ausstattung der Kreatur.";
+ llSpawnPosition="Spawn Position";
+ leaveBlank =" Leerlassen, wenn Du die Entity nicht an einer spezifischen Position spawnen m\u00f6chtest. Relative Koordinaten sind hier nicht erlaubt."
+ ttSpawnX="Die X-Position, an der die Entity gespawnt werden soll." + leaveBlank;
+ ttSpawnY="Die Y-Position, an der die Entity gespawnt werden soll." + leaveBlank;
+ ttSpawnZ="Die Z-Position, an der die Entity gespawnt werden soll." + leaveBlank;
+ ttRelativeSpawner="Pr\u00fcfe, ob die Entity an einer Position relativ zum Spawner erzeugt wurde. Deaktivere dieses K\u00e4stchen, um die Entity an einer spezifischen Koordinate spawnen zu lassen.";
 
  llPlayerName="Name des Spielers";
  ttPlayerName="Name eines bestimmten Spielers.";
@@ -921,6 +927,9 @@ var tileIDs=new Array(["air","Luft"],
 
  llCustomNameEntity="Name";
  ttCustomNameEntity="Benutzerdefinierter Name f\u00fcr die Entity. Erscheint in der Todesanzeige und Verkaufsoptionen von Dorfbewohnern, wie auch \u00fcber den jeweiligen Entities, wenn du mit der Maus dar\u00fcber f\u00e4hrst.";
+ llHideCustomName="Name verstecken";
+ ttHideCustomName="Entities k\u00f6nnen benutzerdefinierte Namen haben, diese werden aber nicht angezeigt.";
+
  llUUIDLeast="UUIDLeast";
  ttUUIDLeast="Die UUID des Objektes im hexadezimalen Format. Sobald die UUID in die zwei dezimale H\u00e4lften UUIDLeast und UUIDMost umgewandelt wurde, wird dieses TAG gelu00f6scht. Die rechte H\u00e4lfte der UUID, eine beliebige Zahl gr\u00f6\u00dfer 0, die zusammen mit UUIDMost f\u00fcr den Modifikator eindeutig sein muss. Verwende dies nur zusammen mit UUIDMost.";
  llUUIDMost="UUIDMost";
@@ -1649,7 +1658,7 @@ enchantables[62][0] ="K\u00f6der";
 
 
 //MCStacker Save
- monthNames = new Array("Jan", "Feb", "Mae", 
+ monthNames = new Array("Jan", "Feb", "M\u00e4r", 
 "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", 
 "Okt", "Nov", "Dez");
  llHome="Startseite";
