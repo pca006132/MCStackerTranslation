@@ -1447,7 +1447,7 @@ var llNote="Note";
 var ttNote="Pitch (number of right-clicks).";
 var llSkullType="Skull Type";
 var ttSkullType="The type of Skull or Head";
-var ttHeadGenerator="In the Player Name field you can type in a player's name or paste in a command generated from Dragnoz's <a href='http://www.dragnoz.com/custom-head-block-generator/' target='_blank'>Custom Head Block Generator</a>. MCStacker will extract what it needs from it.";
+var ttHeadGenerator="In the Player Name field you can type in a player's name or paste in a command generated from this <a href='http://heads.freshcoal.com/index.php' target='_blank'>Custom Head Generator</a>. MCStacker will extract what it needs from it.";
 var llRotation="Rotation";
 var ttRotation="The orientation. Only needed for skulls placed on the ground.";
 var llItem="Item";
